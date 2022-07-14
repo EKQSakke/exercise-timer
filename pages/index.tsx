@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
-import { MutableRefObject, useRef, useState } from 'react'
-import Timer from './timer'
+import { useRef, useState } from 'react'
+import Timer from '../components/timer'
 
 const Home: NextPage = () => {
   const [options, setOptions] = useState(false)
